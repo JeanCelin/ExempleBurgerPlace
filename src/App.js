@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import BurgerLogo from "./img/buger-logo.jpg";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img src={BurgerLogo} alt="logo" title="logo"></img>
+      <a href="https://br.freepik.com/vetores-gratis/vintage-fundo-com-hamburguer-no-estilo-minimalista_1133886.htm#fromView=search&page=1&position=1&uuid=6f849cc9-1b78-4f5f-ace1-fb9ed0952c35">
+        Imagem de freepik
+      </a>
+      git init
     </div>
   );
 }
