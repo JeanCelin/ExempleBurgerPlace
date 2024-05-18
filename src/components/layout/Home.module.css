@@ -1,0 +1,19 @@
+.homeContent {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 20px;
+
+  height: 600px;
+
+  background-image: url(../img/burger-shop.jpg);
+  background-size: cover;
+  background-position: center;
+  background-image: blur;
+}
+.homeContent img {
+  width: 200px;
+  height: 100px;
+}
