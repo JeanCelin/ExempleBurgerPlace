@@ -1,15 +1,18 @@
 import style from "./Home.module.css";
-import CardFeatures from "../cards/CardFeatures";
+import ButtonHome from "../buttons/ButtonHome";
+import Navbar from "./Navbar";
 
 export default function Home() {
   return (
     <>
       <div className={style.homeContainer}></div>
+      <Navbar />
       <div className={style.homeContent}>
         <h1 className={style.homeTitle}>The Burger</h1>
         <p className={style.homeText}>
           Located in the nearest shopping mall to you.
         </p>
+        <ButtonHome />
       </div>
     </>
   );

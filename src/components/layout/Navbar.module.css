@@ -1,12 +1,19 @@
 .navbarContainer {
   width: 100%;
   margin: 0px;
-  max-height: 80px;
-  background-color: #e6d6bb;
   display: flex;
   justify-content: space-between;
+
+  z-index: 1;
+  position: relative;
 }
 .imgNavBar {
   height: 80px;
   width: 90px;
+}
+.img1 {
+  padding-left: 50px;
+}
+.img2 {
+  padding-right: 50px;
 }

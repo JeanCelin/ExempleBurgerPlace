@@ -4,7 +4,6 @@ import Home from "./components/layout/Home";
 function App() {
   return (
     <div className="container">
-      <Navbar />
       <Home />
     </div>
   );
