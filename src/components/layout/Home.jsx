@@ -10,7 +10,8 @@ export default function Home() {
       <div className={style.homeContent}>
         <h1 className={style.homeTitle}>The Burger</h1>
         <p className={style.homeText}>
-          Located in the nearest shopping mall to you.
+          Located in the nearest shopping mall.
+          <br /> We will be happy to serve you!
         </p>
         <ButtonHome />
       </div>

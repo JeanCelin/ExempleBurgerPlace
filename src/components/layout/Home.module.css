@@ -28,8 +28,9 @@
   padding-top: 200px;
 }
 .homeTitle {
-  font-size: 48px;
+  font-size: 90px;
 }
 .homeText {
+  text-align: center;
   font-size: 26px;
 }
