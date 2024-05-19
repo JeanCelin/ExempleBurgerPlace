@@ -1,0 +1,9 @@
+.featureContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: black;
+  padding-top: 100px;
+  height: 100vh;
+}

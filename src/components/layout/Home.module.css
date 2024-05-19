@@ -26,6 +26,7 @@
   z-index: 1;
   position: relative;
   padding-top: 200px;
+  height: 72vh;
 }
 .homeTitle {
   font-size: 90px;

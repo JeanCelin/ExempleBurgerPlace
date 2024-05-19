@@ -9,5 +9,12 @@
   height: 300px;
 
   border-radius: 10px;
-  background-color: #e6d6bb;
+  background: #222;
+  color: white;
+}
+.CardTitle {
+  text-align: center;
+}
+.CardText {
+  padding: 10px;
 }
