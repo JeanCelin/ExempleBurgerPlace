@@ -13,7 +13,9 @@
 }
 .img1 {
   padding-left: 50px;
+  cursor: pointer;
 }
 .img2 {
   padding-right: 50px;
+  cursor: pointer;
 }
