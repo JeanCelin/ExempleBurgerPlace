@@ -1,0 +1,11 @@
+.GalleryContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: black;
+}
+.GalleryContainer img {
+  max-width: 600px;
+  height: 800px;
+}
