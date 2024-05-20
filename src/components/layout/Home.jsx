@@ -4,8 +4,8 @@ import Navbar from "./Navbar";
 
 export default function Home() {
   return (
-    <>
-      <div className={style.homeContainer}></div>
+    <div className={style.homeContainer}>
+      <div className={style.background}></div>
       <Navbar />
       <div className={style.homeContent}>
         <h1 className={style.homeTitle}>The Burger</h1>
@@ -15,6 +15,6 @@ export default function Home() {
         </p>
         <ButtonHome />
       </div>
-    </>
+    </div>
   );
 }
