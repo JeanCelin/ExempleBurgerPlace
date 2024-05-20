@@ -1,9 +1,3 @@
-.contactPageContainer {
-  background-color: black;
-  height: 100vh;
-  color: white;
-}
-
 .formContainer {
   display: flex;
   align-items: center;
