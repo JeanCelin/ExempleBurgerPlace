@@ -1,0 +1,27 @@
+.menuCardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  padding: 100px 0px;
+
+  width: 100%;
+  max-width: 90%;
+  height: 100%;
+  max-height: 90%;
+}
+.menuCard {
+  color: white;
+  background-color: black;
+  box-shadow: 5px 5px 10px 2px black;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0px;
+  width: 100%;
+
+  font-size: 18px;
+}
