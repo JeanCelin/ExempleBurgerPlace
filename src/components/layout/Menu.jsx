@@ -20,8 +20,12 @@ export default function Menu() {
       <Link className={style.noDecoration} to="/menu" onClick={handleClick}>
         <div>Menu</div>
       </Link>
-      <div>About</div>
-      <div>Contact</div>
+      <Link className={style.noDecoration} to="/about" onClick={handleClick}>
+        <div>About</div>
+      </Link>
+      <Link className={style.noDecoration} to="/contact" onClick={handleClick}>
+        <div>Contact</div>
+      </Link>
     </div>
   );
 }

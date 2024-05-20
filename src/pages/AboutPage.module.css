@@ -1,0 +1,64 @@
+.aboutPageContainer {
+  background-color: black;
+  height: 100vh;
+  color: white;
+}
+.aboutMessage {
+  width: 400px;
+}
+.titleMessage {
+  font-size: 30px;
+}
+.textMessage {
+  font-size: 20px;
+}
+.aboutContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding-top: 200px;
+  background-color: black;
+}
+.aboutContainer img {
+  height: 720px;
+  width: 500px;
+  border-bottom: 2px solid white;
+}
+.missionContainer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 300px;
+
+  background-color: black;
+}
+.missionContainer img {
+  height: 500px;
+}
+.missionMessage {
+  width: 400px;
+}
+.ourTeamContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  padding-top: 200px;
+}
+.ourTeamCollaborator {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.ourTeamCollaborator img {
+  height: 720px;
+  width: 500px;
+}
+.collaboratorPicture {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
