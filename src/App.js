@@ -1,18 +1,18 @@
-import Home from "./components/layout/Home";
-import Features from "./components/layout/Features";
-import GalleryHome from "./components/layout/GalleryHome";
-import Menu from "./components/layout/Menu";
-import Footer from "./components/layout/Footer";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
+import HomePage from "./pages/HomePage";
+import MenuPage from "./pages/MenuPage";
 
 function App() {
   return (
-    <div className="container">
-      <Home />
-      <Features />
-      <GalleryHome />
-      <Menu />
-      <Footer />
-    </div>
+    <Router>
+      <div className="container">
+        <Routes>
+          <Route path="/menu" element={<MenuPage />} />
+          <Route path="/" element={<HomePage />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
