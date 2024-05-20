@@ -1,0 +1,66 @@
+.contactPageContainer {
+  background-color: black;
+  height: 100vh;
+  color: white;
+}
+
+.formContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.formContainer h1 {
+  font-size: 48px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-size: 26px;
+}
+
+.form input {
+  padding: 15px;
+  width: 400px; /* Ajuste conforme necessário */
+  text-align: start;
+  font-size: 20px;
+}
+
+.form label {
+  cursor: pointer;
+}
+
+.form button {
+  padding: 15px 50px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(170, 170, 30);
+}
+
+.form button:hover {
+  background-color: rgb(245, 245, 44);
+}
+
+#userMessage {
+  padding: 15px; /* Use padding uniforme para manter consistência */
+  width: 430px; /* Ajuste conforme necessário */
+  height: 300px; /* Define a altura do textarea */
+  text-align: start; /* Garante que o texto começa à esquerda */
+  box-sizing: border-box; /* Garante que o padding esteja dentro do tamanho definido */
+  resize: none; /* Impede o redimensionamento, se desejado */
+  overflow: auto; /* Adiciona rolagem se o texto exceder a altura */
+  font-size: 18px;
+}
+.sendMessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 200px;
+  font-size: 20px;
+}
