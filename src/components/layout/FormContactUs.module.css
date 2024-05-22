@@ -3,6 +3,7 @@
   align-items: center;
   flex-direction: column;
   color: white;
+  background-color: black;
 }
 
 .formContainer h1 {
@@ -57,4 +58,17 @@
   flex-direction: column;
   padding-top: 200px;
   font-size: 20px;
+}
+.successMsg {
+  color: yellow;
+  padding-top: 200px;
+  font-size: 40px;
+}
+.msgError {
+  color: red;
+  background-color: #ffe5e5;
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
 }
