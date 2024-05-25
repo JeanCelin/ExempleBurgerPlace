@@ -68,7 +68,7 @@ export default function FormContactus() {
               value={userMsg}
               required
             />
-            <p className={style.msgError}>{msg}</p>
+            {msg && <p className={style.msgError}>{msg}</p>}
             <button type="submit" onClick={handleClick}>
               Submit
             </button>
