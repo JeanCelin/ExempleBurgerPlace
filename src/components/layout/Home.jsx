@@ -14,7 +14,8 @@ export default function Home() {
         <h1
           className={style.homeTitle}
           data-aos="fade-right"
-          data-aos-delay="200">
+          data-aos-delay="50"
+          data-aos-duration="3000">
           The Burger
         </h1>
         <p className={style.homeText} data-aos="fade-left" data-aos-delay="300">
