@@ -23,19 +23,26 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color: white;
+  color: var(--regular-text-color);
   z-index: 1;
   position: relative;
+  text-align: center;
 
   height: 100vh;
 }
 
 .homeTitle {
-  font-size: 90px;
-  color: rgb(245, 245, 44);
+  font-size: var(--regular-title-size);
+  color: var(--regular-title-color);
 }
 
 .homeText {
   text-align: center;
-  font-size: 26px;
+  font-size: var(--regular-text-size);
+}
+
+@media (max-width: 722px) {
+  .homeContent {
+    justify-content: start;
+  }
 }

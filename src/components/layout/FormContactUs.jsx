@@ -1,4 +1,5 @@
 import style from "./FormContactUs.module.css";
+
 import { useState } from "react";
 
 export default function FormContactUs() {
@@ -95,7 +96,7 @@ export default function FormContactUs() {
             />
             {msg && <p className={style.msgError}>{msg}</p>}
             <button type="submit" onClick={handleClick}>
-              Submit
+              SUBMIT
             </button>
           </form>
         </>

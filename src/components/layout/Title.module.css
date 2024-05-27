@@ -1,5 +1,5 @@
 .titleContainer {
-  background-color: black;
-  color: rgb(245, 245, 44);
-  font-size: 30px;
+  background-color: var(--background-primary-color);
+  color: var(--regular-title-color);
+  font-size: var(--component-title-size);
 }

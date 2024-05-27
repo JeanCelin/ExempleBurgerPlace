@@ -3,6 +3,7 @@ import "aos/dist/aos.css";
 import style from "./Home.module.css";
 import ButtonHome from "../buttons/ButtonHome";
 import Navbar from "./Navbar";
+import "../styles/globalStyles.css";
 AOS.init();
 
 export default function Home() {

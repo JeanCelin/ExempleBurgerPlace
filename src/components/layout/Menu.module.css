@@ -4,8 +4,8 @@
   font-style: normal;
   font-size: 28px;
 
-  background-color: black;
-  color: white;
+  background-color: var(--background-primary-color);
+  color: var(--regular-text-color);
 
   display: flex;
   justify-content: center;
@@ -19,7 +19,7 @@
   cursor: pointer;
 }
 .menuContent:hover {
-  color: rgb(245, 245, 44);
+  color: var(--regular-title-color);
 }
 .noDecoration {
   text-decoration: none;

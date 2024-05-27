@@ -3,12 +3,12 @@
   flex-direction: column;
 }
 .navbarMenu {
-  color: white;
+  color: var(--regular-text-color);
   position: absolute;
   z-index: 2;
   right: 35px;
   top: 60px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: var(--component-navbarMenu-background-color);
   margin-top: 10px;
   padding: 0px 20px;
   text-align: center;
@@ -17,7 +17,7 @@
   cursor: pointer;
 }
 .navbarMenu h3:hover {
-  color: rgb(245, 245, 44);
+  color: var(--component-navbarMenu-hover-color);
 }
 .navbarIcons {
   width: 100%;
@@ -44,4 +44,13 @@
 .noDecoration {
   text-decoration: none;
   color: inherit;
+}
+@media (max-width: 722px) {
+  .homeTitle {
+    font-size: 36px;
+  }
+  .navbarIcons img {
+    width: 40px;
+    height: 40px;
+  }
 }

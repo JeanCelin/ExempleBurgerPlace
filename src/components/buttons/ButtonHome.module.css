@@ -2,12 +2,12 @@
   padding: 10px 40px;
   border-radius: 5px;
   cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
+  background-color: var(--component-button-background-color);
+  color: var(--regular-text-color);
   font-size: 18px;
 }
 .btn_home:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: var(--component-button-secundary-color);
   transition: 0.2s ease-in-out;
-  color: rgb(245, 245, 44);
+  color: var(--component-button-primary-color);
 }

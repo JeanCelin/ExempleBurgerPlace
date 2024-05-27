@@ -3,9 +3,22 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
-  background-color: black;
+  background-color: var(--background-primary-color);
 }
+
 .GalleryContainer img {
   max-width: 600px;
-  height: 800px;
+  height: 700px;
+}
+@media (max-width: 1955px) {
+  .GalleryContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 767px) {
+  .GalleryContainer img {
+    max-width: 300px;
+    height: 300px;
+  }
 }

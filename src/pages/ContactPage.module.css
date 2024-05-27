@@ -1,5 +1,5 @@
 .contactPageContainer {
-  background-color: black;
+  background-color: var(--background-primary-color);
   height: 100vh;
-  color: white;
+  color: var(--regular-text-color);
 }

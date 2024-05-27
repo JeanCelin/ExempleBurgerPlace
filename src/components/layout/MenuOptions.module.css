@@ -6,7 +6,7 @@
 .menuTitle {
   display: flex;
   justify-content: center;
-  color: rgb(245, 245, 44);
+  color: var(--regular-title-color);
 }
 .infoFood {
   display: flex;
@@ -15,11 +15,13 @@
   gap: 70px;
   border-bottom: 3px dotted rgb(175, 175, 175);
 }
-
+.foodName h3 {
+  font-size: var(--small-s-title-size);
+}
 .foodName h4 {
   color: rgb(175, 175, 175);
 }
 
 .price {
-  font-size: 22px;
+  font-size: var(--small-s-title-size);
 }

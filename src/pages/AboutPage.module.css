@@ -1,16 +1,18 @@
 .aboutPageContainer {
-  background-color: black;
+  background-color: var(--background-primary-color);
   height: 100vh;
-  color: white;
+  color: var(--regular-text-color);
 }
 .aboutMessage {
   width: 400px;
 }
 .titleMessage {
-  font-size: 30px;
+  font-size: var(--regular-title-size);
+  color: var(--regular-title-color);
 }
 .textMessage {
-  font-size: 20px;
+  font-size: var(--regular-text-size);
+  color: var(--regular-text-color);
 }
 .aboutContainer {
   display: flex;
@@ -18,7 +20,7 @@
   align-items: center;
   flex-direction: row-reverse;
   padding-top: 200px;
-  background-color: black;
+  background-color: var(--background-primary-color);
 }
 .aboutContainer img {
   height: 720px;
@@ -28,10 +30,11 @@
 .missionContainer {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 30px;
-  padding-top: 300px;
+  padding-top: 200px;
 
-  background-color: black;
+  background-color: var(--background-primary-color);
 }
 .missionContainer img {
   height: 500px;
@@ -44,7 +47,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: black;
+  background-color: var(--background-primary-color);
   padding-top: 200px;
 }
 .ourTeamCollaborator {

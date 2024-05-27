@@ -11,9 +11,9 @@
   max-height: 90%;
 }
 .menuCard {
-  color: white;
-  background-color: black;
-  box-shadow: 5px 5px 10px 2px black;
+  color: var(--regular-text-color);
+  background-color: var(--background-primary-color);
+  box-shadow: 5px 5px 10px 2px var(--background-primary-color);
   border-radius: 5px;
 
   display: flex;
@@ -23,5 +23,5 @@
   padding: 70px 0px;
   width: 100%;
 
-  font-size: 18px;
+  font-size: var(small-s-regular-text-size);
 }

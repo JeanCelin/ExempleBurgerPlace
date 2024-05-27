@@ -2,13 +2,14 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  color: white;
-  background-color: black;
+  color: var(--regular-text-color);
+  background-color: var(--background-primary-color);
+  font-size: var(--regular-text-size);
 }
 
 .formContainer h1 {
-  font-size: 48px;
-  color: rgb(245, 245, 44);
+  font-size: var(--regular-title-size);
+  color: var(--regular-title-color);
 }
 
 .form {
@@ -16,7 +17,6 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  font-size: 26px;
 }
 
 .form input {

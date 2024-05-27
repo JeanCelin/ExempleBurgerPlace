@@ -1,0 +1,30 @@
+:root {
+  /* Main titles */
+  --regular-title-color: rgb(245, 245, 44);
+  --regular-title-size: 60px;
+  /*Regular tex*/
+  --regular-text-color: white;
+  --regular-text-size: 26px;
+
+  /*Small Screens*/
+  --small-s-title-size: 26px;
+  --small-s-regular-text-size: 18px;
+
+  /*background color */
+  --background-primary-color: #000;
+
+  /*Componentes*/
+  /* Title Component */
+  --component-title-size: 30px;
+
+  /*Button Component */
+  --component-button-primary-color: var(--regular-title-color);
+  --component-button-secundary-color: rgba(0, 0, 0, 0.8);
+  --component-button-background-color: rgba(0, 0, 0, 0.5);
+  /*CardFeature Component */
+  --component-cardFeature-background-color: #222;
+  /*NavbarMenu Component */
+  --component-navbarMenu-text-color: var(--regular-text-color);
+  --component-navbarMenu-background-color: rgba(0, 0, 0, 0.5);
+  --component-navbarMenu-hover-color: var(--regular-title-color);
+}

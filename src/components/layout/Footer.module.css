@@ -1,6 +1,6 @@
 .footerContainer {
-  background-color: black;
-  color: white;
+  background-color: var(--background-primary-color);
+  color: var(--regular-text-color);
   height: 100%;
   width: 100%;
   padding-top: 5px;
