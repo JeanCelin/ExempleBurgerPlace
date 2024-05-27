@@ -31,16 +31,16 @@ export default function Navbar() {
       {showMenu && (
         <div className={style.navbarMenu}>
           <Link className={style.noDecoration} to="/">
-            <h3>Home</h3>
+            <h3>HOME</h3>
           </Link>
           <Link className={style.noDecoration} to="/menu">
-            <h3>Menu</h3>
+            <h3>MENU</h3>
           </Link>
           <Link className={style.noDecoration} to="/about">
-            <h3>About</h3>
+            <h3>ABOUT</h3>
           </Link>
           <Link className={style.noDecoration} to="/contact">
-            <h3>Contact</h3>
+            <h3>CONTACT</h3>
           </Link>
         </div>
       )}

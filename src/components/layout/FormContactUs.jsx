@@ -1,7 +1,7 @@
 import style from "./FormContactUs.module.css";
 import { useState } from "react";
 
-export default function FormContactus() {
+export default function FormContactUs() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [userMsg, setUserMsg] = useState("");
@@ -9,10 +9,41 @@ export default function FormContactus() {
   const [successMsg, setSuccessMsg] = useState("");
   const [formSuccess, setFormSuccess] = useState(true);
   const [showMsg, setShowMsg] = useState(false);
+
   const handleSuccess = () => {
     setFormSuccess(false);
     setShowMsg(true);
     setSuccessMsg("Message sent successfully!");
+  };
+
+  const handleChange = (setter, validator) => (e) => {
+    const value = e.target.value;
+    setter(value);
+    validator(value);
+  };
+
+  const validateName = (value) => {
+    if (value === "") {
+      setMsg("Enter your name");
+    } else {
+      setMsg("");
+    }
+  };
+
+  const validateEmail = (value) => {
+    if (value === "") {
+      setMsg("Enter a valid email");
+    } else {
+      setMsg("");
+    }
+  };
+
+  const validateMessage = (value) => {
+    if (value === "") {
+      setMsg("Write your message");
+    } else {
+      setMsg("");
+    }
   };
 
   const handleClick = (e) => {
@@ -39,9 +70,7 @@ export default function FormContactus() {
               name="name"
               type="text"
               maxLength="36"
-              onChange={(e) => {
-                setName(e.target.value);
-              }}
+              onChange={handleChange(setName, validateName)}
               value={name}
               required
             />
@@ -50,10 +79,8 @@ export default function FormContactus() {
               name="email"
               type="email"
               maxLength="36"
+              onChange={handleChange(setEmail, validateEmail)}
               value={email}
-              onChange={(e) => {
-                setEmail(e.target.value);
-              }}
               required
             />
             <label htmlFor="message">Write your message</label>
@@ -62,9 +89,7 @@ export default function FormContactus() {
               name="message"
               minLength="10"
               maxLength="600"
-              onChange={(e) => {
-                setUserMsg(e.target.value);
-              }}
+              onChange={handleChange(setUserMsg, validateMessage)}
               value={userMsg}
               required
             />
