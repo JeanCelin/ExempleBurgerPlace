@@ -7,8 +7,8 @@ import Menu from "../components/layout/Menu";
 export default function MenuPage() {
   return (
     <div className={style.menuPageContainer}>
+      <Navbar />
       <div className={style.menuPageContent}>
-        <Navbar />
         <MenuCard />
         <Menu />
         <Footer />

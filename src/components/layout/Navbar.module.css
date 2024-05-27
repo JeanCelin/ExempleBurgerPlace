@@ -1,4 +1,25 @@
 .navbarContainer {
+  display: flex;
+  flex-direction: column;
+}
+.navbarMenu {
+  color: white;
+  position: absolute;
+  z-index: 2;
+  right: 40px;
+  top: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+  padding: 0px 20px;
+  text-align: center;
+}
+.navbarMenu h3 {
+  cursor: pointer;
+}
+.navbarMenu h3:hover {
+  color: rgb(245, 245, 44);
+}
+.navbarIcons {
   width: 100%;
   margin: 0px;
   display: flex;
@@ -17,5 +38,10 @@
 }
 .img2 {
   padding-right: 50px;
+
   cursor: pointer;
+}
+.noDecoration {
+  text-decoration: none;
+  color: inherit;
 }
