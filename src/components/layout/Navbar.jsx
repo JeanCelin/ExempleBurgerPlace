@@ -19,7 +19,6 @@ export default function Navbar() {
             className={`${style.imgNavBar} ${style.img1}`}
             src={BurgerLogo}
             alt="logo"
-            title="logo"
           />
         </Link>
         <img
@@ -31,6 +30,9 @@ export default function Navbar() {
       </div>
       {showMenu && (
         <div className={style.navbarMenu}>
+          <Link className={style.noDecoration} to="/">
+            <h3>Home</h3>
+          </Link>
           <Link className={style.noDecoration} to="/menu">
             <h3>Menu</h3>
           </Link>

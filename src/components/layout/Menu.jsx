@@ -15,16 +15,16 @@ export default function Menu() {
   return (
     <div className={style.menuContainer}>
       <Link className={style.noDecoration} to="/" onClick={handleClick}>
-        <div>Home</div>
+        <div className={style.menuContent}>Home</div>
       </Link>
       <Link className={style.noDecoration} to="/menu" onClick={handleClick}>
-        <div>Menu</div>
+        <div className={style.menuContent}>Menu</div>
       </Link>
       <Link className={style.noDecoration} to="/about" onClick={handleClick}>
-        <div>About</div>
+        <div className={style.menuContent}>About</div>
       </Link>
       <Link className={style.noDecoration} to="/contact" onClick={handleClick}>
-        <div>Contact</div>
+        <div className={style.menuContent}>Contact</div>
       </Link>
     </div>
   );

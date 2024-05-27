@@ -6,6 +6,7 @@
 .menuTitle {
   display: flex;
   justify-content: center;
+  color: rgb(245, 245, 44);
 }
 .infoFood {
   display: flex;
