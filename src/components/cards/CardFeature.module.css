@@ -18,6 +18,25 @@
 }
 .CardText {
   padding: 15px;
-  font-size: var(small-s-regular-text-size);
+  font-size: var(--small-s-regular-text-size);
   text-align: center;
+}
+@media (max-width: 722px) {
+  .CardContainer {
+    padding: 20px;
+    height: 200px;
+  }
+  .CardTitle {
+    font-size: var(--small-s-title-size);
+  }
+  .CardText {
+    font-size: var(--small-s-regular-text-size);
+    padding: 0px;
+  }
+}
+@media (max-width: 310px) {
+  .CardContainer {
+    padding: 0px;
+    height: 250px;
+  }
 }

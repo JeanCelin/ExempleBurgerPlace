@@ -12,6 +12,7 @@
   margin-top: 10px;
   padding: 0px 20px;
   text-align: center;
+  font-size: var(--component-navbarMenu-size);
 }
 .navbarMenu h3 {
   cursor: pointer;
@@ -46,6 +47,9 @@
   color: inherit;
 }
 @media (max-width: 722px) {
+  .navbarMenu {
+    font-size: var(--component-navbarMenu-small-size);
+  }
   .homeTitle {
     font-size: 36px;
   }

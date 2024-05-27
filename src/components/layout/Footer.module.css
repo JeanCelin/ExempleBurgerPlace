@@ -5,9 +5,15 @@
   width: 100%;
   padding-top: 5px;
   padding-bottom: 70px;
+  font-size: var(--component-footer-size);
 
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+@media (max-width: 722px) {
+  .footerContainer {
+    font-size: var(--component-footer-small-size);
+  }
 }

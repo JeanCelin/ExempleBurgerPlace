@@ -16,9 +16,17 @@
     flex-wrap: wrap;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 765px) {
   .GalleryContainer img {
-    max-width: 300px;
     height: 300px;
+    width: 100;
+  }
+  .img3 {
+    width: 100%;
+  }
+}
+@media (max-width: 245px) {
+  .GalleryContainer img {
+    width: 100%;
   }
 }

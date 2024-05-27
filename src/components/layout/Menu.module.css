@@ -2,7 +2,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-style: normal;
-  font-size: 28px;
+  font-size: var(--component-menu-size);
 
   background-color: var(--background-primary-color);
   color: var(--regular-text-color);
@@ -24,4 +24,9 @@
 .noDecoration {
   text-decoration: none;
   color: inherit;
+}
+@media (max-width: 722px) {
+  .menuContainer {
+    font-size: var(--component-menu-small-size);
+  }
 }

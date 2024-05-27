@@ -23,5 +23,13 @@
   padding: 70px 0px;
   width: 100%;
 
-  font-size: var(small-s-regular-text-size);
+  font-size: var(--component-tablePrices-size);
+}
+@media (max-width: 745px) {
+  .menuCardContainer {
+    flex-direction: column;
+  }
+  .menuCard {
+    font-size: var(--component-tablePrices-small-size);
+  }
 }

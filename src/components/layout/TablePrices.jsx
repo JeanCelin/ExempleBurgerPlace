@@ -1,4 +1,4 @@
-import style from "./MenuOptions.module.css";
+import style from "./TablePrices.module.css";
 
 export default function MenuOptions() {
   return (

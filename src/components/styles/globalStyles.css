@@ -16,15 +16,32 @@
   /*Componentes*/
   /* Title Component */
   --component-title-size: 30px;
+  --component-title-small-size: 15px
 
   /*Button Component */
   --component-button-primary-color: var(--regular-title-color);
   --component-button-secundary-color: rgba(0, 0, 0, 0.8);
   --component-button-background-color: rgba(0, 0, 0, 0.5);
+  --component-button-text-size: 14px;
   /*CardFeature Component */
   --component-cardFeature-background-color: #222;
   /*NavbarMenu Component */
+  --component-navbarMenu-size: 18px;
+  --component-navbarMenu-small-size: 14px;
   --component-navbarMenu-text-color: var(--regular-text-color);
   --component-navbarMenu-background-color: rgba(0, 0, 0, 0.5);
   --component-navbarMenu-hover-color: var(--regular-title-color);
+  /*Menu Component */
+  --component-menu-size: 28px;
+  --component-menu-small-size: 20px;
+  /*Footer Component */
+  --component-footer-size: 14px;
+  --component-footer-small-size: 10px;
+  /*TablePrices */
+  --component-tablePrices-size: 18px;
+  --component-tablePrices-small-size: 14px;
+  --component-tablePricesOptionsTitle-size: 26px;
+  --component-tablePricesOptionsTitle-small-size: 18px;
+  --component-tablePricesOptionsPrice-small-size: 14px;
+  
 }

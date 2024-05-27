@@ -4,10 +4,15 @@
   cursor: pointer;
   background-color: var(--component-button-background-color);
   color: var(--regular-text-color);
-  font-size: 18px;
+  font-size: var(--small-s-regular-text-size);
 }
 .btn_home:hover {
   background-color: var(--component-button-secundary-color);
   transition: 0.2s ease-in-out;
   color: var(--component-button-primary-color);
+}
+@media (max-width: 722px) {
+  .btn_home {
+    font-size: var(--component-button-text-size);
+  }
 }

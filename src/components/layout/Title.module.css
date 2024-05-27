@@ -3,3 +3,9 @@
   color: var(--regular-title-color);
   font-size: var(--component-title-size);
 }
+
+@media (max-width: 722px) {
+  .titleContainer {
+    font-size: var(--component-title-small-size);
+  }
+}
