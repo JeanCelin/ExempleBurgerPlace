@@ -2,4 +2,5 @@
   background-color: var(--background-primary-color);
   height: 100vh;
   color: var(--regular-text-color);
+  overflow-x: hidden;
 }
