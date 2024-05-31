@@ -53,6 +53,7 @@
 }
 .ourTeamCollaborator {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
 }
@@ -65,4 +66,66 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 1190px) {
+  .titleMessage {
+    font-size: var(--small-s-title-size);
+  }
+  .textMessage {
+    font-size: var(--small-s-regular-text-size);
+  }
+  .aboutContainer img {
+    height: 400px;
+    width: 300px;
+  }
+  .missionContainer img {
+    height: 250px;
+  }
+  .missionMessage p {
+    font-size: var(--small-s-regular-text-size);
+  }
+  .missionMessage h1 {
+    font-size: var(--small-s-title-size);
+  }
+  .collaboratorPicture img {
+    height: 400px;
+    width: 300px;
+  }
+}
+@media (max-width: 832px) {
+  .missionContainer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 760px) {
+  .missionContainer {
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 672px) {
+  .aboutContainer img {
+    display: none;
+  }
+}
+@media (max-width: 414px) {
+  .aboutPageContent {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .missionMessage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .textMessage {
+    max-width: 250px;
+  }
+  .aboutMessage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

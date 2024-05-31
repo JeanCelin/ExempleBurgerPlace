@@ -16,7 +16,7 @@
   /*Componentes*/
   /* Title Component */
   --component-title-size: 30px;
-  --component-title-small-size: 15px
+  --component-title-small-size: 15px;
 
   /*Button Component */
   --component-button-primary-color: var(--regular-title-color);
@@ -43,5 +43,4 @@
   --component-tablePricesOptionsTitle-size: 26px;
   --component-tablePricesOptionsTitle-small-size: 18px;
   --component-tablePricesOptionsPrice-small-size: 14px;
-  
 }
