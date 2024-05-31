@@ -14,10 +14,13 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </div>
     </Router>
   );
 }
-
+function NotFoundPage() {
+  return <h2>404 Página Não Encontrada</h2>;
+}
 export default App;
