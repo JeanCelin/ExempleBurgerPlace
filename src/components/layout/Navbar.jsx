@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import BurgerLogo from "../img/burger-logo.png";
-import MenuIcon from "../img/menu-icon.png";
+import BurgerLogo from "../../img/burger-logo.png";
+import MenuIcon from "../../img/menu-icon.png";
 import style from "./Navbar.module.css";
 import { useState } from "react";
 

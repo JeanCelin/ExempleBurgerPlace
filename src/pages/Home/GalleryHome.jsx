@@ -1,6 +1,6 @@
-import img1 from "../../components/img/gallery1.jpg";
-import img2 from "../../components/img/gallery2.jpg";
-import img3 from "../../components/img/gallery3.jpg";
+import img1 from "../../img/gallery1.jpg";
+import img2 from "../../img/gallery2.jpg";
+import img3 from "../../img/gallery3.jpg";
 
 import style from "./GalleryHome.module.css";
 

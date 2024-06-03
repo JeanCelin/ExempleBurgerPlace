@@ -2,9 +2,9 @@ import Footer from "../../components/layout/Footer";
 import Menu from "../../components/layout/Menu";
 import Navbar from "../../components/layout/Navbar";
 import style from "./AboutPage.module.css";
-import presenting from "../../components/img/presenting.png";
-import businessWoman from "../../components/img/businesswoman-posing-with-copy-space.jpg";
-import worker from "../../components/img/working.jpg";
+import presenting from "../../img/presenting.png";
+import businessWoman from "../../img/businesswoman-posing-with-copy-space.jpg";
+import worker from "../../img/working.jpg";
 export default function AboutPage() {
   return (
     <div className={style.aboutPageContainer}>
