@@ -1,8 +1,8 @@
-import TablePricesCard from "../components/layout/TablePricesCard";
-import Navbar from "../components/layout/Navbar";
+import TablePricesCard from "./TablePricesCard";
+import Navbar from "../../components/layout/Navbar";
 import style from "./MenuPage.module.css";
-import Footer from "../components/layout/Footer";
-import Menu from "../components/layout/Menu";
+import Footer from "../../components/layout/Footer";
+import Menu from "../../components/layout/Menu";
 
 export default function MenuPage() {
   return (

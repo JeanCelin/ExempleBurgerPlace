@@ -10,7 +10,7 @@ body {
 }
 
 .background {
-  background-image: url(../img/burger-shop.jpg);
+  background-image: url(../../components//img/burger-shop.jpg);
   background-size: cover;
   background-position: center;
   position: absolute;

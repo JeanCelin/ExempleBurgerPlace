@@ -1,9 +1,9 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import style from "./Home.module.css";
-import ButtonHome from "../buttons/ButtonHome";
-import Navbar from "./Navbar";
-import "../styles/globalStyles.css";
+import ButtonHome from "../../components/buttons/ButtonHome";
+import Navbar from "../../components/layout/Navbar";
+import "../../components/styles/globalStyles.css";
 AOS.init();
 
 export default function Home() {

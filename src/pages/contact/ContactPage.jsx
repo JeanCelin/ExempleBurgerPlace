@@ -1,9 +1,9 @@
 import { useState } from "react";
-import Footer from "../components/layout/Footer";
-import Menu from "../components/layout/Menu";
-import Navbar from "../components/layout/Navbar";
+import Footer from "../../components/layout/Footer";
+import Menu from "../../components/layout/Menu";
+import Navbar from "../../components/layout/Navbar";
 import style from "./ContactPage.module.css";
-import FormContactUs from "../components/layout/FormContactUs";
+import FormContactUs from "./FormContactUs";
 
 export default function Contact() {
   return (

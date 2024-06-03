@@ -1,6 +1,6 @@
-import CardFeature from "../cards/CardFeatures";
+import CardFeature from "./CardFeatures";
 import style from "./Features.module.css";
-import Title from "./Title";
+import Title from "../../components/layout/Title";
 
 export default function Features() {
   return (
