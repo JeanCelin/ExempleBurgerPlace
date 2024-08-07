@@ -10,8 +10,8 @@ function App() {
     <Router>
       <div className="container">
         <Routes>
-          <Route path="/menu" element={<MenuPage />} />
           <Route path="/" element={<HomePage />} />
+          <Route path="/menu" element={<MenuPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="*" element={<NotFoundPage />} />
