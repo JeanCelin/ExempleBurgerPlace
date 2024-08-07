@@ -15,7 +15,10 @@ export default function HomePage() {
   return (
     <div>
       <div className={style.homeContainer}>
-        <div className={style.background}></div>
+        <img
+          className={style.background}
+          loading="lazy"
+          alt="hambuger in the background"></img>
         <Navbar />
         <div className={style.homeContent}>
           <h1
