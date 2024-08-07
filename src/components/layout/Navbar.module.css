@@ -5,6 +5,7 @@
 .navbarMenu {
   color: var(--regular-text-color);
   position: absolute;
+  border: 3px;
   z-index: 2;
   right: 35px;
   top: 60px;

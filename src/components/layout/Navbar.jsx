@@ -10,7 +10,6 @@ export default function Navbar() {
   const handleClick = () => {
     setShowMenu(!showMenu);
   };
-
   return (
     <div className={style.navbarContainer}>
       <div className={style.navbarIcons}>

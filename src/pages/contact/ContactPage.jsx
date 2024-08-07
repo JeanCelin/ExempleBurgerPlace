@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Footer from "../../components/layout/Footer";
 import Menu from "../../components/layout/Menu";
 import Navbar from "../../components/layout/Navbar";
@@ -7,13 +6,17 @@ import FormContactUs from "./FormContactUs";
 
 export default function Contact() {
   return (
-    <div className={style.contactPageContainer}>
-      <Navbar />
-      <FormContactUs />
-      <div>
-        <Menu />
-        <Footer />
+    <>
+      <div className={style.background}>
+        <Navbar />
       </div>
-    </div>
+      <div className={(style.contactPageContainer, style.background)}>
+        <FormContactUs />
+        <div>
+          <Menu />
+          <Footer />
+        </div>
+      </div>
+    </>
   );
 }
