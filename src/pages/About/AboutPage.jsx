@@ -24,7 +24,10 @@ export default function AboutPage() {
                 food.
               </p>
             </div>
-            <img src={presenting} />
+            <img
+              src={presenting}
+              prop="A stylish man presenting a phrase beside him"
+            />
           </div>
           <div className={style.missionContainer}>
             <div className={style.missionMessage}>
@@ -39,21 +42,25 @@ export default function AboutPage() {
                 responsibility.
               </p>
             </div>
-            <img className={style.fotos} src={businessWoman} />
+            <img
+              className={style.fotos}
+              src={businessWoman}
+              prop="a business woman"
+            />
           </div>
           <div className={style.ourTeamContainer}>
             <h1 className={style.titleMessage}>Our Team</h1>
             <div className={style.ourTeamCollaborator}>
               <div className={style.collaboratorPicture}>
-                <img src={worker} />
+                <img src={worker} prop="a collaborator" />
                 <p>Collaborator exemple</p>
               </div>
               <div className={style.collaboratorPicture}>
-                <img src={worker} />
+                <img src={worker} prop="a collaborator" />
                 <p>Collaborator exemple</p>
               </div>
               <div className={style.collaboratorPicture}>
-                <img src={worker} />
+                <img src={worker} prop="a collaborator" />
                 <p>Collaborator exemple</p>
               </div>
             </div>
