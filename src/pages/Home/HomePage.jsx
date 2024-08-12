@@ -8,7 +8,7 @@ import Menu from "../../components/layout/Menu";
 import Footer from "../../components/layout/Footer";
 import ButtonHome from "../../components/buttons/ButtonHome";
 import Navbar from "../../components/layout/Navbar";
-import "../../components/styles/globalStyles.css";
+import "../../styles/globalStyles.css";
 
 AOS.init();
 export default function HomePage() {
