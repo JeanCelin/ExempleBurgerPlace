@@ -2,109 +2,109 @@
 
 # The Burger - Website
 
-Este repositório contém o código-fonte de um site para "The Burger", uma hamburgueria fictícia. O site foi desenvolvido utilizando React.js e inclui várias páginas, como a Home, Menu, Sobre, Contato e uma página para lidar com erros 404.
+This repository contains the source code for the website of "The Burger," a fictional burger restaurant. The site was developed using React.js and includes several pages such as Home, Menu, About, Contact, and a page to handle 404 errors.
 
-## Funcionalidades
+## Features
 
-- **Página Inicial (HomePage):** Apresenta uma introdução ao restaurante, incluindo uma breve descrição e um botão para mais detalhes. Possui animações implementadas com AOS (Animate On Scroll).
-- **Página de Menu (MenuPage):** Exibe os itens do cardápio com preços e descrições. A página é organizada em seções para diferentes categorias de alimentos, como hambúrgueres e sucos.
-- **Página Sobre (AboutPage):** Fornece informações sobre a missão, visão e equipe do restaurante. Contém imagens representativas e texto descritivo.
-- **Página de Contato (ContactPage):** Inclui um formulário para os usuários entrarem em contato com o restaurante, além de informações gerais como endereço e telefone.
-- **Página 404 (NotFoundPage):** Página exibida quando o usuário tenta acessar uma rota que não existe.
+- **Home Page (HomePage):** Provides an introduction to the restaurant, including a brief description and a button for more details. It features animations implemented with AOS (Animate On Scroll).
+- **Menu Page (MenuPage):** Displays menu items with prices and descriptions. The page is organized into sections for different food categories, such as burgers and juices.
+- **About Page (AboutPage):** Provides information about the restaurant's mission, vision, and team. It includes representative images and descriptive text.
+- **Contact Page (ContactPage):** Includes a form for users to contact the restaurant, along with general information such as address and phone number.
+- **404 Page (NotFoundPage):** This page is displayed when a user tries to access a non-existent route.
 
-## Estrutura de Diretórios
+## Directory Structure
 
 - `src/`
-  - `components/`: Contém componentes reutilizáveis como Navbar, Footer, Menu, etc.
-  - `img/`: Contém todas as imagens utilizadas no site.
-  - `pages/`: Contém as páginas principais do site, organizadas em subdiretórios conforme a página.
-    - `home/`: Página inicial.
-    - `prices/`: Página de Menu.
-    - `about/`: Página Sobre.
-    - `contact/`: Página de Contato.
-  - `styles/`: Contém estilos globais aplicados ao site.
+  - `components/`: Contains reusable components such as Navbar, Footer, Menu, etc.
+  - `img/`: Contains all the images used on the site.
+  - `pages/`: Contains the main pages of the site, organized into subdirectories according to the page.
+    - `home/`: Home Page.
+    - `prices/`: Menu Page.
+    - `about/`: About Page.
+    - `contact/`: Contact Page.
+  - `styles/`: Contains global styles applied to the site.
 
-## Dependências
+## Dependencies
 
-- **React Router DOM:** Utilizado para gerenciar a navegação entre as páginas.
-- **AOS (Animate On Scroll):** Biblioteca de animações para elementos que aparecem conforme o usuário rola a página.
-- **CSS Modules:** Usado para modularizar e escopar os estilos CSS a cada componente, evitando conflitos de estilo.
+- **React Router DOM:** Used to manage navigation between pages.
+- **AOS (Animate On Scroll):** Animation library for elements that appear as the user scrolls the page.
+- **CSS Modules:** Used to modularize and scope CSS styles to each component, avoiding style conflicts.
 
-## Como Executar o Projeto
+## How to Run the Project
 
-### Pré-requisitos
+### Prerequisites
 
-- Node.js instalado (versão recomendada: >= 14.x)
-- Gerenciador de pacotes npm ou yarn
+- Node.js installed (recommended version: >= 14.x)
+- npm or yarn package manager
 
-### Passos para Rodar o Projeto Localmente
+### Steps to Run the Project Locally
 
-1. **Clone o Repositório:**
+1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/seu-usuario/the-burger-website.git
+   git clone https://github.com/your-username/the-burger-website.git
    cd the-burger-website
 
-2. **Instale as Dependências:**
+2. **Install Dependencies:**
    ```bash
    npm install
    # ou
    yarn install
 
    
-3. **Clone o Repositório:**
+3. **Run the Project::**
    ```bash
    npm start
    # ou
    yarn start
-   O site estará disponível em [http://localhost:3000](http://localhost:3000).
+   
+  The site will be available at [http://localhost:3000](http://localhost:3000).
 
-## Estrutura de Código
+## Code Structure
 
 ### `App.js`
-Este arquivo é o ponto de entrada principal do aplicativo. Ele configura as rotas do React Router e renderiza as diferentes páginas do site.
+This file is the main entry point of the application. It sets up the React Router routes and renders the different pages of the site.
 
-### Páginas
+### Pages
 
-- **HomePage:** Importa componentes como Navbar, Footer, Features, e utiliza o AOS para animações. Apresenta o título e uma breve introdução sobre o restaurante.
-- **MenuPage:** Exibe o cardápio com preços e descrições. Inclui componentes como TablePricesCard, Menu, Navbar e Footer.
-- **AboutPage:** Fornece uma visão geral sobre o restaurante, incluindo sua missão e equipe, com imagens e texto explicativo.
-- **ContactPage:** Contém um formulário de contato e inclui os componentes Navbar, Footer, e Menu.
-- **NotFoundPage:** Simplesmente exibe uma mensagem de "404 Página Não Encontrada".
+- **HomePage:** Imports components like Navbar, Footer, Features, and uses AOS for animations. It presents the title and a brief introduction to the restaurant.
+- **MenuPage:** Displays the menu with prices and descriptions. It includes components like TablePricesCard, Menu, Navbar, and Footer.
+- **AboutPage:** Provides an overview of the restaurant, including its mission and team, with images and explanatory text.
+- **ContactPage:** Contains a contact form and includes the components Navbar, Footer, and Menu.
+- **NotFoundPage:** Simply displays a "404 Page Not Found" message.
+  
+### Components
 
-### Componentes
+- **Navbar:** Navigation bar displayed at the top of each page.
+- **Footer:** Footer displayed at the bottom of each page.
+- **Menu:** Component displayed on various pages, showing navigation options.
 
-- **Navbar:** Barra de navegação exibida no topo de cada página.
-- **Footer:** Rodapé exibido no final de cada página.
-- **Menu:** Componente exibido em diversas páginas, mostrando opções de navegação.
+## Styles
 
-## Estilos
+Styles are organized using CSS Modules, with each component and page having its own associated CSS file. This ensures isolated style scoping, preventing conflicts between different components.
 
-Os estilos são organizados utilizando CSS Modules, com cada componente e página tendo seu próprio arquivo CSS associado. Isso garante um escopo de estilos isolado, evitando conflitos entre diferentes componentes.
+# Technologies
 
-# Tecnologias Utilizadas
+This project was developed using the following technologies:
 
-Este projeto foi desenvolvido utilizando as seguintes tecnologias:
+- **[React.js](https://reactjs.org/):** JavaScript library for building user interfaces.
+- **[React Router DOM](https://reactrouter.com/):** Library for managing routes in React, facilitating navigation between pages.
+- **[AOS (Animate On Scroll)](https://michalsnik.github.io/aos/):** Scroll animation library, adding visual effects as the user scrolls the page.
+- **[CSS Modules](https://github.com/css-modules/css-modules):** Methodology for scoping CSS styles at the component level, avoiding global style conflicts.
+- **HTML5:** Semantic structuring of page content.
+- **CSS3:** Styling of pages, using both global styles and CSS Modules for specific components.
 
-- **[React.js](https://reactjs.org/):** Biblioteca JavaScript para construir interfaces de usuário.
-- **[React Router DOM](https://reactrouter.com/):** Biblioteca para gerenciar rotas no React, facilitando a navegação entre páginas.
-- **[AOS (Animate On Scroll)](https://michalsnik.github.io/aos/):** Biblioteca para animações de scroll, adicionando efeitos visuais conforme o usuário rola a página.
-- **[CSS Modules](https://github.com/css-modules/css-modules):** Metodologia para escopar estilos CSS ao nível do componente, evitando conflitos de estilos globais.
-- **HTML5:** Estruturação semântica do conteúdo das páginas.
-- **CSS3:** Estilização das páginas, utilizando tanto estilos globais quanto CSS Modules para componentes específicos.
+## Hosting and Deployment
+- **[Vercel](https://vercel.com/):** Platform used for deploying and hosting the site in a production environment.
 
-## Hospedagem e Deploy
+## Version Control
 
-- **[Vercel](https://vercel.com/):** Plataforma utilizada para o deploy e hospedagem do site em ambiente de produção.
-
-## Versionamento de Código
-
-- **[Git](https://git-scm.com/):** Sistema de controle de versão distribuído.
-- **[GitHub](https://github.com/):** Plataforma para hospedagem de código-fonte e colaboração em projetos.
+- **[Git](https://git-scm.com/):** Distributed version control system.
+- **[GitHub](https://github.com/):** Platform for hosting source code and collaborating on projects.
 
 ---
 
-## Licença
+## License
 
-Este projeto está licenciado sob a MIT License - consulte o arquivo `LICENSE` para mais detalhes.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/JeanCelin/ExempleBurgerPlace/blob/main/LICENSE)
