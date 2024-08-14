@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import style from "./ButtonHome.module.css";
+
 export default function ButtonHome() {
   const scrollToTop = () => {
     window.scrollTo({
@@ -11,6 +12,7 @@ export default function ButtonHome() {
   const handleClick = () => {
     scrollToTop();
   };
+
   return (
     <Link to="/menu">
       <button className={style.btn_home} onClick={handleClick}>

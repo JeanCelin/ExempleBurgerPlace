@@ -69,6 +69,9 @@
   justify-content: center;
   align-items: center;
 }
+.collaboratorPicture p {
+  color: white;
+}
 @media (max-width: 1190px) {
   .titleMessage {
     font-size: var(--small-s-title-size);
@@ -86,7 +89,7 @@
   .missionMessage p {
     font-size: var(--small-s-regular-text-size);
   }
-  .missionMessage h1 {
+  .missionMessage h2 {
     font-size: var(--small-s-title-size);
   }
   .collaboratorPicture img {
@@ -109,25 +112,30 @@
   .aboutContainer img {
     display: none;
   }
-}
-@media (max-width: 414px) {
-  .aboutPageContent {
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
   .missionMessage {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  .textMessage {
-    max-width: 250px;
   }
   .aboutMessage {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media (max-width: 414px) {
+  .aboutPageContent {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .textMessage {
+    max-width: 250px;
+  }
+  .businessWomanPicture {
+    display: none;
   }
 }

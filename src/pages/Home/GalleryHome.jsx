@@ -6,7 +6,7 @@ import style from "./GalleryHome.module.css";
 
 export default function GalleryHome() {
   return (
-    <div className={style.GalleryContainer}>
+    <section className={style.GalleryContainer}>
       <img
         alt="fries"
         loading="lazy"
@@ -30,6 +30,6 @@ export default function GalleryHome() {
         data-aos="fade-up"
         data-aos-delay="100"
         data-aos-duration="900"></img>
-    </div>
+    </section>
   );
 }

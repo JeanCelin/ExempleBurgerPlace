@@ -13,11 +13,11 @@ import "../../styles/globalStyles.css";
 AOS.init();
 export default function HomePage() {
   return (
-    <div>
+    <>
       <div className={style.homeContainer}>
         <div className={style.background}></div>
         <Navbar />
-        <div className={style.homeContent}>
+        <main className={style.homeContent}>
           <h1
             className={style.homeTitle}
             data-aos="fade-right"
@@ -33,12 +33,12 @@ export default function HomePage() {
             <br /> We will be happy to serve you!
           </p>
           <ButtonHome />
-        </div>
+        </main>
       </div>
       <Features />
       <GalleryHome />
       <Menu />
       <Footer />
-    </div>
+    </>
   );
 }

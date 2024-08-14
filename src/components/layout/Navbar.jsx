@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
+
+import style from "./Navbar.module.css";
 import BurgerLogo from "../../img/burger-logo.png";
 import MenuIcon from "../../img/menu-icon.png";
-import style from "./Navbar.module.css";
-import { useState } from "react";
 
 export default function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
@@ -11,7 +12,7 @@ export default function Navbar() {
     setShowMenu(!showMenu);
   };
   return (
-    <div className={style.navbarContainer}>
+    <nav className={style.navbarContainer}>
       <div className={style.navbarIcons}>
         <Link to="/">
           <img
@@ -43,6 +44,6 @@ export default function Navbar() {
           </Link>
         </div>
       )}
-    </div>
+    </nav>
   );
 }

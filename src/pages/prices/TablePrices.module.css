@@ -18,7 +18,8 @@
 .foodName h3 {
   font-size: var(--component-tablePricesOptionsTitle-size);
 }
-.foodName h4 {
+.foodName p {
+  font-weight: bold;
   color: rgb(175, 175, 175);
 }
 

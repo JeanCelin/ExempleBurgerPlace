@@ -9,28 +9,28 @@ export default function MenuOptions() {
       <div className={`${style.infoFood} ${style.roboto}`}>
         <div className={style.foodName}>
           <h3>Z-burger</h3>
-          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div className={style.price}>$99</div>
       </div>
       <div className={`${style.infoFood} ${style.roboto}`}>
         <div className={style.foodName}>
           <h3>Z-burger</h3>
-          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div className={style.price}>$99</div>
       </div>
       <div className={`${style.infoFood} ${style.roboto}`}>
         <div className={style.foodName}>
           <h3>Z-burger</h3>
-          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div className={style.price}>$99</div>
       </div>
       <div className={`${style.infoFood} ${style.roboto}`}>
         <div className={style.foodName}>
           <h3>Z-burger</h3>
-          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div className={style.price}>$99</div>
       </div>
@@ -39,15 +39,15 @@ export default function MenuOptions() {
       </div>
       <div className={`${style.infoFood} ${style.roboto}`}>
         <div className={style.foodName}>
-          <h3>Z-burger</h3>
-          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+          <h3>Juice 200ml</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div className={style.price}>$99</div>
       </div>
       <div className={`${style.infoFood} ${style.roboto}`}>
         <div className={style.foodName}>
-          <h3>Z-burger</h3>
-          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+          <h3>Juice 200ml</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div className={style.price}>$99</div>
       </div>

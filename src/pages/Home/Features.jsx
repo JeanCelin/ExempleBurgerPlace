@@ -5,7 +5,7 @@ import Title from "../../components/layout/Title";
 export default function Features() {
   return (
     <>
-      <div className={style.featureContainer}>
+      <section className={style.featureContainer}>
         <Title titleMessage="Our Features" />
         <div
           className={style.cardsContainer}
@@ -30,7 +30,7 @@ export default function Features() {
             />
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

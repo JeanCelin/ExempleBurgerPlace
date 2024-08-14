@@ -13,9 +13,9 @@ export default function AboutPage() {
       </div>
       <div className={(style.aboutPageContainer, style.background)}>
         <div className={style.aboutPageContent}>
-          <div className={style.aboutContainer}>
+          <section className={style.aboutContainer}>
             <div className={style.aboutMessage}>
-              <h1 className={style.titleMessage}>About Us At</h1>
+              <h2 className={style.titleMessage}>About Us At</h2>
               <p className={style.textMessage}>
                 our passion for culinary arts goes beyond the simple act of
                 cooking - it's a mission, a journey towards culinary excellence.
@@ -28,10 +28,10 @@ export default function AboutPage() {
               src={presenting}
               prop="A stylish man presenting a phrase beside him"
             />
-          </div>
-          <div className={style.missionContainer}>
+          </section>
+          <section className={style.missionContainer}>
             <div className={style.missionMessage}>
-              <h1 className={style.titleMessage}>Mission</h1>
+              <h2 className={style.titleMessage}>Mission</h2>
               <p className={style.textMessage}>
                 Our mission is simple: to create moments of joy and connection
                 through food. We aim to be more than just a burger joint - we
@@ -43,34 +43,32 @@ export default function AboutPage() {
               </p>
             </div>
             <img
-              className={style.fotos}
+              className={style.businessWomanPicture}
               src={businessWoman}
               prop="a business woman"
             />
-          </div>
-          <div className={style.ourTeamContainer}>
-            <h1 className={style.titleMessage}>Our Team</h1>
+          </section>
+          <section className={style.ourTeamContainer}>
+            <h2 className={style.titleMessage}>Our Team</h2>
             <div className={style.ourTeamCollaborator}>
               <div className={style.collaboratorPicture}>
                 <img src={worker} prop="a collaborator" />
-                <p>Collaborator exemple</p>
+                <p>Collaborator name</p>
               </div>
               <div className={style.collaboratorPicture}>
                 <img src={worker} prop="a collaborator" />
-                <p>Collaborator exemple</p>
+                <p>Collaborator name</p>
               </div>
               <div className={style.collaboratorPicture}>
                 <img src={worker} prop="a collaborator" />
-                <p>Collaborator exemple</p>
+                <p>Collaborator name</p>
               </div>
             </div>
-          </div>
-        </div>
-        <div>
-          <Menu />
-          <Footer />
+          </section>
         </div>
       </div>
+      <Menu />
+      <Footer />
     </>
   );
 }
