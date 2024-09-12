@@ -103,5 +103,5 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ## Licença
 
-Este projeto está licenciado sob a MIT License - consulte o arquivo `LICENSE` para mais detalhes.
+Este projeto está licenciado sob uma licença personalizada. Você tem permissão para copiar o código para uso pessoal, mas não tem permissão para modificá-lo, redistribuí-lo ou usá-lo para fins comerciais. Para mais detalhes, consulte o arquivo LICENSE.
 
