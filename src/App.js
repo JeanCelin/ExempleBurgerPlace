@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import HomePage from "./pages/home/HomePage";
-import MenuPage from "./pages//prices/MenuPage";
-import AboutPage from "./pages/about/AboutPage";
-import ContactPage from "./pages/contact/ContactPage";
+import HomePage from "./pages/home/HomePage.jsx";
+import MenuPage from "./pages/prices/MenuPage.jsx";
+import AboutPage from "./pages/about/AboutPage.jsx";
+import ContactPage from "./pages/contact/ContactPage.jsx";
 
 function App() {
   return (
