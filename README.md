@@ -1,5 +1,3 @@
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/JeanCelin/ExempleBurgerPlace/blob/main/LICENSE)
-
 # The Burger - Website
 
 This repository contains the source code for the website of "The Burger," a fictional burger restaurant. The site was developed using React.js and includes several pages such as Home, Menu, About, Contact, and a page to handle 404 errors.
@@ -105,6 +103,4 @@ This project was developed using the following technologies:
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/JeanCelin/ExempleBurgerPlace/blob/main/LICENSE)
+This project is licensed under a custom license. You are permitted to copy the code for personal use, but you are not allowed to modify, redistribute, or use it for commercial purposes. For more details, see the LICENSE file.
